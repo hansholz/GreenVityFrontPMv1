@@ -1,0 +1,10 @@
+<div class="details-img" *ngIf="avatarImg">
+    <img src="{{ avatarImg }}"
+         alt="avatar" 
+         class="profile-avatar">
+    <button (click)="openEditPhoto()">
+        <img src="{{editIcon}}" 
+             alt="edit icon" 
+             class="edit-icon">
+    </button>
+</div>
